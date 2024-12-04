@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:text="Hola \nmundo"-->
+<!--        android:gravity="top|center_horizontal"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:scrollbars="vertical"/>-->
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:gravity="center"-->
+<!--        android:text="Hola\nCómo estás?\nEsto es un ejemplo\nGracias por preguntar\nAdiós" />-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Titulo rojo"
+        android:textSize="30sp"
+        android:textColor="@color/mi_color"
+        android:padding="10dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Titulo 2"
+        android:textSize="20sp"
+        android:padding="10dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_margin="20dp"
+        android:layout_gravity="center|right"
+        android:text="Hola Mundo esto es una prueba para diferenciar el gravity del \nlayout gravity" />
+
+</LinearLayout>
